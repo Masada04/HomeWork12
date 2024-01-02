@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 500px;
+  box-shadow: 0 0 20px rgb(255, 4, 4);
+  margin:  60px auto;
+  padding: 20px;
+  border-radius: 40px;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 100vh;
+  background-image: linear-gradient(160deg, #2f2626 0%, #00000000 90%), url(https://i.extremetech.com/imagery/content-types/002d0gAyjIzidZG4lE9hzmt/hero-image.fill.size_1200x675.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.search-bar>input, .search-bar>label{
+  font-size: 90%;
+  display: block;
+  padding: 8px;
+  margin: 15px;
+  border: 2px solid;
+  background-color: rgb(216, 221, 221);
+}
+
+.filter-table {
+  margin: 40px ;
+  font-weight: bold;
+  font-size: 20px;
+ 
+}
+
+.product-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+}
+
+.product-table th, .product-table td {
+  border: 4px solid rgb(0, 0, 0);
+  padding: 10px 10px;
+  
+}
+
+.category-row {
+  text-align: center;
+  background-color: rgb(236, 240, 242);
+}
+
+/* Class utility */
+.text-red {
+  color: rgb(255, 30, 0);
+}
